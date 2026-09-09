@@ -1,0 +1,21 @@
+Etiqueta       | ¿Para qué sirve?                                     | Sintaxis                          | Ejemplo
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+<h1>           | Crea el encabezado principal del documento          | <h1>Texto</h1>                    | <h1>título principal</h1>
+<section>      | Agrupa una sección genérica del documento           | <section>Contenido</section>      | <section><h2>servicios</h2></section>
+<a>            | Crea un enlace, hipervínculo                        | <a href="url">Texto</a>           | <a href="https://github.com">ir a github</a>
+<dd>           | Da la definición de un término dentro de <dl>       | <dl><dt>T</dt><dd>D</dd></dl>     | <dl><dt>html</dt><dd>lenguaje de marcado</dd></dl>
+<div>          | Agrupa contenido en un bloque, contenedor           | <div>Contenido</div>              | <div class="contenedor">contenido</div>
+<span>         | Agrupa texto en línea, sin salto de línea           | <span>Texto</span>                | <p>hola <span>mundo</span></p>
+<ul>           | Crea una lista desordenada con viñetas              | <ul><li>Item</li></ul>            | <ul><li>sol</li><li>luna</li></ul>
+<ol>           | Crea una lista ordenada numerada                    | <ol><li>Item</li></ol>            | <ol><li>primero</li><li>segundo</li></ol>
+<li>           | Define un elemento dentro de una lista              | <li>Texto</li>                    | <li>elemento de lista</li>
+<figure>       | Agrupa contenido independiente, imagen, código, etc | <figure><img src="x"></figure>    | <figure><img src="imagen.jpg"></figure>
+<tr>           | Crea una fila dentro de una tabla                   | <tr>...</tr>                      | <tr><td>fila 1</td></tr>
+<td>           | Crea una celda dentro de una fila                   | <td>Texto</td>                    | <td>nombre</td>
+<br>           | Inserta un salto de línea                           | <br>                              | línea 1<br>línea 2
+<hr>           | Inserta una línea horizontal divisoria              | <hr>                              | <p>texto</p><hr><p>más texto</p>
+<strong>       | Resalta texto con negrita y que es importe          | <strong>Texto</strong>            | <strong>importante</strong>
+<em>           | Resalta texto con cursiva y énfasis                 | <em>Texto</em>                    | <em>cursiva</em>
+<canvas>       | Dibuja gráficos dinámicos con JavaScript            | <canvas id="id"></canvas>         | <canvas id="grafico" width="200" height="100"></canvas>
+<form>         | Crea un formulario para capturar datos              | <form>...</form>                  | <form action="/enviar">...</form>
+<input>        | Crea un campo de entrada de datos                   | <input type="tipo">               | <input type="text" placeholder="nombre">
